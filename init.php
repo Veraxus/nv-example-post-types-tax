@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: NOUVEAU Semantic Custom Types & Taxonomies Example
+Plugin Name: NOUVEAU Post Types & Taxonomies Example
 Plugin URI: http://nouveauframework.com/plugins/
-Description: A simple starting point for creating new post types and/or taxonomies.
+Description: A simple starting point for creating new custom post types and/or taxonomies.
 Author: Matt Van Andel
 Version: 0.1
 Author URI: http://mattstoolbox.com/

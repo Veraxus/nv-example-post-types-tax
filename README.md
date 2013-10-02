@@ -1,10 +1,10 @@
-## NOUVEAU Semantic Custom Types & Taxonomies Example ##
+## NOUVEAU Post Types & Taxonomies Example ##
 
-A simple starting point for creating new post types and/or taxonomies.
+A simple starting point for creating new custom post types and/or taxonomies.
 
 ### Description ###
 
-A simple starting point for creating new post types and/or taxonomies.
+A simple starting point for creating new custom post types and/or taxonomies.
 
 ### Changelog ###
 

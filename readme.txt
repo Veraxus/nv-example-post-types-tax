@@ -1,14 +1,14 @@
-=== NOUVEAU Semantic Custom Types & Taxonomies Example ===
+=== NOUVEAU Post Types & Taxonomies Example ===
 Contributors: Veraxus
 Tags: 
 Requires at least: 3.6
 Tested up to: 3.8
 Stable tag: 0.1
 
-A simple starting point for creating new post types and/or taxonomies.
+A simple starting point for creating new custom post types and/or taxonomies.
 
 == Description ==
-A simple starting point for creating new post types and/or taxonomies.
+A simple starting point for creating new custom post types and/or taxonomies.
 
 == Installation ==
 
