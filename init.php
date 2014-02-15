@@ -4,7 +4,7 @@ Plugin Name: NOUVEAU Post Types & Taxonomies Example
 Plugin URI: http://nouveauframework.com/plugins/
 Description: A simple starting point for creating new custom post types and/or taxonomies.
 Author: Matt Van Andel
-Version: 0.1
+Version: 0.2
 Author URI: http://mattstoolbox.com/
 License: GPLv2 or later
 
@@ -306,31 +306,33 @@ class NV_Example_TypesAndTax {
              * 'edit_examples', 'create_examples'. Each post type is unique though, so you'll want to adjust it to fit
              * your needs.
              */
+            /*
             'capabilities' => array(
 
                 // meta caps (don't assign these to roles)
-                'edit_post'              => 'edit_example',
-                'read_post'              => 'read_example',
-                'delete_post'            => 'delete_example',
+                'edit_post'              => 'edit_'.$nameSingle,
+                'read_post'              => 'read_'.$nameSingle,
+                'delete_post'            => 'delete_'.$nameSingle,
 
                 // primitive/meta caps
-                'create_posts'           => 'create_examples',
+                'create_posts'           => 'create_'.$namePlural,
 
                 // primitive caps used outside of map_meta_cap()
-                'edit_posts'             => 'edit_examples',
-                'edit_others_posts'      => 'manage_examples',
-                'publish_posts'          => 'manage_examples',
-                'read_private_posts'     => 'read',
+                'edit_posts'             => 'edit_'.$namePlural,
+                'edit_others_posts'      => 'manage_'.$namePlural,
+                'publish_posts'          => 'manage_'.$namePlural,
+                'read_private_posts'     => 'read_private_'.$namePlural,
 
                 // primitive caps used inside of map_meta_cap()
-                'read'                   => 'read',
-                'delete_posts'           => 'manage_examples',
-                'delete_private_posts'   => 'manage_examples',
-                'delete_published_posts' => 'manage_examples',
-                'delete_others_posts'    => 'manage_examples',
-                'edit_private_posts'     => 'edit_examples',
-                'edit_published_posts'   => 'edit_examples'
+                'read'                   => 'read_'.$namePlural,
+                'delete_posts'           => 'manage_'.$namePlural,
+                'delete_private_posts'   => 'manage_'.$namePlural,
+                'delete_published_posts' => 'manage_'.$namePlural,
+                'delete_others_posts'    => 'manage_'.$namePlural,
+                'edit_private_posts'     => 'edit_'.$namePlural,
+                'edit_published_posts'   => 'edit_'.$namePlural,
             ),
+            */
 
         );
 

@@ -2,8 +2,8 @@
 Contributors: Veraxus
 Tags: 
 Requires at least: 3.6
-Tested up to: 3.8
-Stable tag: 0.1
+Tested up to: 3.9
+Stable tag: 0.2
 
 A simple starting point for creating new custom post types and/or taxonomies.
 
@@ -24,6 +24,10 @@ A simple starting point for creating new custom post types and/or taxonomies.
 
 
 == Changelog ==
+
+= 0.2 (2014/02/15) =
+* Fixed custom capabilities.
+* Commented out custom capabilities by default.
 
 = 0.1 (2013/09/30) =
 * Initial beta. Uploaded to github.
