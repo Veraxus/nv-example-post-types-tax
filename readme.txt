@@ -1,9 +1,11 @@
 === NOUVEAU Post Types & Taxonomies Example ===
 Contributors: Veraxus
 Tags: 
+Requires PHP: 5.3
 Requires at least: 3.6
-Tested up to: 3.9
-Stable tag: 0.2
+Tested up to: 4.2
+Stable tag: 0.3
+GitHub Plugin URI: veraxus/nv-example-post-types-tax
 
 A simple starting point for creating new custom post types and/or taxonomies.
 
