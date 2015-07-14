@@ -4,7 +4,7 @@ Plugin Name: NOUVEAU Post Types & Taxonomies Example
 Plugin URI: http://nouveauframework.com/plugins/
 Description: A simple starting point for creating new custom post types and/or taxonomies.
 Author: Matt Van Andel
-Version: 0.2
+Version: 0.3
 Author URI: http://mattstoolbox.com/
 License: GPLv2 or later
 
@@ -98,7 +98,7 @@ class NV_Example_TypesAndTax {
             'all_items'             => sprintf(__( 'All %s', 'nvLangScope' ), $namePlural),
             'add_new'               => __( 'Add New', 'nvLangScope' ),
             'add_new_item'          => sprintf(__( 'Add New %s', 'nvLangScope' ), $nameSingle),
-            'edit_item'             => sprintf(__( 'Add New %s', 'nvLangScope' ), $nameSingle),
+            'edit_item'             => sprintf(__( 'Edit %s', 'nvLangScope' ), $nameSingle),
             'new_item'              => sprintf(__( 'New %s', 'nvLangScope' ), $nameSingle),
             'view_item'             => sprintf(__( 'View %s', 'nvLangScope' ), $nameSingle),
             'search_items'          => sprintf(__( 'Search %s', 'nvLangScope' ), $namePlural),
