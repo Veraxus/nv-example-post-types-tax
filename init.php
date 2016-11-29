@@ -4,7 +4,7 @@ Plugin Name: NOUVEAU Post Types & Taxonomies Example
 Plugin URI: http://nouveauframework.com/plugins/
 Description: A simple starting point for creating new custom post types and/or taxonomies.
 Author: Matt Van Andel
-Version: 0.3
+Version: 0.4
 Author URI: http://mattstoolbox.com/
 License: GPLv2 or later
 
@@ -296,6 +296,9 @@ class NV_Example_TypesAndTax {
 
                 /* Displays the Format meta box and allows post formats to be used with the posts. */
                 'post-formats',
+                
+                /* Allows use of pre-registered taxonomies with this post type */
+                'taxonomies',
             ),
 
             /**
