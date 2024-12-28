@@ -210,11 +210,24 @@ class PostTypes
             'taxonomies'           => [], // array
 
             /**
+             * Array of blocks to use as the default initial state for an editor session. Each item should be an array
+             * containing block name and optional attributes.
+             */
+            'template'             => [], // array
+
+            /**
+             * Sets how much control an editor has when editing posts of this type. This is used in combination with the
+             * 'template' setting above.
+             *  - 'all'    - Lock all blocks. Editor cannot change the default blocks defined in 'template' above.
+             *  - 'insert' - Lock adding blocks. Editor cannot add or remove blocks, but can move around the presets.
+             */
+            'template_lock'        => false, // string|false
+
+            /**
              * A callback that can be used to add meta boxes (custom UI) to your post edit screens for this post type.
              * You will need to use add_meta_box() and/or remove_meta_box() from within the specified callback.
              */
             'register_meta_box_cb' => null, // callback
-
 
             /**
              * How the URL structure should be handled with this post type.  You can set this to an
