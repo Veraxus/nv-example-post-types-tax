@@ -4,7 +4,7 @@ Plugin Name: NOUVEAU Custom Post Types Example
 Plugin URI: http://nouveauframework.org/plugins/
 Description: A simple reference for creating new custom post types.
 Author: Matt van Andel
-Version: 2.0
+Version: 2.1
 Author URI: http://nouveauframework.org
 License: GPLv2 or later
 
@@ -138,6 +138,12 @@ class PostTypes
              * new post type item.
              */
             'show_in_admin_bar'    => true, // bool (defaults: 'show_in_menu' value)
+            
+            /**
+             * Whether this post type should be available via the Rest API.
+             * Be aware that the block editor will not be available for this post type unless this is enabled.
+             */
+            'show_in_rest'         => true, // bool (default: FALSE)
 
             /**
              * The position in the menu order the post type should appear. 'show_in_menu' must be true for this to work.
